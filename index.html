@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Пойдешь гулять со мной?</title>
     <link href="./css/styles.css" rel="stylesheet" />
 </head>
 
@@ -15,8 +16,8 @@
             <img src="./images/first.gif">
         </div>
         <div class="buttons">
-            <button class="btn" id="yesButton" onclick="nextPage()">Да</button>
-            <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Нет</button>
+            <button class="btn" id="yesButton" onmousedown="nextPage()">Да</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()" onmousedown="moveButton()">Нет</button>
         </div>
     </div>
     <script src="./js/noBtnMove.js"></script>
